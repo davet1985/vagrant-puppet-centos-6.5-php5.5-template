@@ -6,7 +6,7 @@ A template project containing the puppet for a basic VM that runs apache, PHP 5.
 Configuration
 -------------
 
-This VM will work out of the box. However to a hostname applicable you, change [the hostname line](https://github.com/PurpleBooth/vagrant-puppet-centos-6.5-php5.5-template/blob/master/Vagrantfile#L9) in the Vagrantfile
+This VM will work out of the box. However to use a hostname applicable you, change [the hostname line](https://github.com/PurpleBooth/vagrant-puppet-centos-6.5-php5.5-template/blob/master/Vagrantfile#L9) in the Vagrantfile
 ```ruby
 config.vm.hostname = "change-me"
 ```
