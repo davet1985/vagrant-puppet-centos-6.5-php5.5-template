@@ -1,7 +1,7 @@
-vagrant-puppet-centos-6.5-php5.5-template
-=========================================
+Vagrant with Puppet to Provision a Webserver
+============================================
 
-A template project containing the puppet for a basic VM that runs apache, PHP5.5 on Centos 6.6.
+A template project containing the puppet for a basic VM that runs apache, PHP 5.5 on Centos 6.5.
 
 Configuration
 -------------
@@ -39,13 +39,18 @@ The webroot is the "[web/](https://github.com/PurpleBooth/vagrant-puppet-centos-
 Xdebug
 ------
 
-Xdebug is configured to connect back to the host machine on port 9000 with xdebug key: php-xdebug.
+Xdebug is configured to connect back to the host machine on port **9000** with xdebug key: **php-xdebug**.
+
+Firewall
+--------
+
+IP Tables has been stopped and disabled.
 
 
 Network interfaces
 ------------------
 
-Guest machine is *192.168.40.13*
-Host machine is *192.168.40.1* from guest.
+Guest machine is **192.168.40.13**
+Host machine is **192.168.40.1** from guest.
 
 Public IP is also provisioned. Will be whatever is assigned via DHCP.
