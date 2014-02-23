@@ -29,10 +29,16 @@ veewee vbox export 'centos-6.5'
 vagrant box add 'centos-6.5' 'centos-6.5.box'
 ```
 
+Webserver
+---------
+You can find the webserver running at [http://192.168.40.13](http://192.168.40.13).
+
+The webroot is the "[web/](https://github.com/PurpleBooth/vagrant-puppet-centos-6.5-php5.5-template/tree/master/web)" directory
+
+
 Xdebug
 ------
 
-You can find the webserver running at [http://192.168.40.13](http://192.168.40.13).
 Xdebug is configured to connect back to the host machine on port 9000 with xdebug key: php-xdebug.
 
 
