@@ -15,7 +15,7 @@ xdebug.remote_connect_back = 1
 xdebug.remote_enable = 1
 xdebug.remote_handler = dbgp
 xdebug.remote_port = 9000
-xdebug.remote_host = 192.168.90.1
+xdebug.remote_host = 192.168.40.1
 xdebug.idekey = php-xdebug
 ",
   require => [Class['apache'], Package["php55w-pecl-xdebug"]],
