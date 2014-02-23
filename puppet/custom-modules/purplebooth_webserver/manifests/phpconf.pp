@@ -51,7 +51,7 @@ DirectoryIndex index.php",
 }
 file {"/etc/php.d/date.timezone.ini":
   ensure => present,
-  content => "date.timezone = Europe/London",
+  content => "date.timezone = UTC",
   require => [Class['apache'], Package["php55w"]],
   notify => Class['Apache::Service']
 }
