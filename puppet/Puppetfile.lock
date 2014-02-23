@@ -1,0 +1,29 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    puppetlabs/concat (1.1.0-rc1)
+      puppetlabs/stdlib (>= 3.0.0)
+    puppetlabs/stdlib (4.1.0)
+
+GIT
+  remote: https://github.com/puppetlabs/puppetlabs-apache.git
+  ref: master
+  sha: ed9f060a15219ad14c8246109ac98e2bcfcb3be2
+  specs:
+    apache (0.11.0)
+      puppetlabs/concat (>= 1.0.0)
+      puppetlabs/stdlib (>= 2.4.0)
+
+GIT
+  remote: https://github.com/puppetlabs/puppetlabs-ntp.git
+  ref: master
+  sha: ed56e143da45f171cc5de4b21db7259ba73aaedf
+  specs:
+    ntp (3.0.2)
+      puppetlabs/stdlib (>= 0.1.6)
+
+DEPENDENCIES
+  apache (>= 0)
+  ntp (>= 0)
+  puppetlabs/stdlib (>= 0)
+

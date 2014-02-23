@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+forge "http://forge.puppetlabs.com"
+
+mod 'puppetlabs/stdlib'
+
+mod 'ntp',
+   :git => 'https://github.com/puppetlabs/puppetlabs-ntp.git'
+mod 'apache',
+   :git => 'https://github.com/puppetlabs/puppetlabs-apache.git'

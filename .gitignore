@@ -1,0 +1,4 @@
+/puppet/.tmp/
+/puppet/modules/
+/.vagrant
+*~
