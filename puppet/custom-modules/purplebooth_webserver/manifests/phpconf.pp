@@ -32,6 +32,9 @@ package { "php55w-xml":
 package { "php55w-process":
   ensure => latest,
 }
+package { "php55w-mysql":
+  ensure => latest,
+}
 
 file {"/etc/httpd/conf.d/php5.load":
   ensure => present,
