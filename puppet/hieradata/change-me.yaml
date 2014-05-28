@@ -3,3 +3,4 @@ classes:
   - purplebooth_webserver
   - purplebooth_webserver_dev_additions
   - davet1985_mysql
+  - composer

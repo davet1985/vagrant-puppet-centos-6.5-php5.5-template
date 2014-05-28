@@ -9,3 +9,5 @@ mod 'ntp',
    :git => 'https://github.com/puppetlabs/puppetlabs-ntp.git'
 mod 'apache',
    :git => 'https://github.com/puppetlabs/puppetlabs-apache.git'
+mod 'composer',
+   :git => 'https://github.com/willdurand/puppet-composer.git'
